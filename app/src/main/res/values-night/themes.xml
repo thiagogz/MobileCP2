@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AppCheckPoint02" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/rosa_claro</item>
+        <item name="colorPrimaryVariant">@color/rosa</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
