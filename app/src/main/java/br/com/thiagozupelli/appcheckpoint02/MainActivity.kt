@@ -34,14 +34,14 @@ class MainActivity : AppCompatActivity() {
 
     // Exibição da assinatura do desenvolvedor
     private fun showStudentSignature() {
-        val mySignature = """
-            Nome: Thiago Zupelli
+        val signature = """
+            Nome: Thiago Gameiro Zupelli
             RM: 99085
         """.trimIndent()
 
         AlertDialog.Builder(this)
             .setTitle("Desenvolvido por:")
-            .setMessage(mySignature)
+            .setMessage(signature)
             .setPositiveButton("Ok") { dialog, which -> }
             .show()
     }
